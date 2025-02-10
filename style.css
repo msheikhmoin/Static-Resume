@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #65aaaa, #bfa025);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+/* Blocks Responsive */
+.blocks {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(34, 134, 137);
+    border: 3px solid rgb(155, 157, 36);
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: linear-gradient(90deg, #65aaaa, #bfa025);
+}
+
+/* Font Responsive */
+.font {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(9, 102, 105);
+}
+
+/* Static Heading */
+.static {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    padding: 10px;
+    font-family: "Satisfy";
+    background-size: cover;
+    background-position: center;
+    font-weight: 500;
+    -webkit-text-fill-color: rgb(9, 102, 105);
+}
+
+/* Picture */
+#picture {
+    background-image: url(uifaces-popular-image.jpg);
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(14, 8, 8);
+    border: 5px solid rgb(16, 137, 141);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Text Responsive */
+#objective,
+#p,
+#b,
+#certification {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Container Responsive */
+.container {
+    width: 90%;
+    height: auto;
+    justify-self: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 2px solid gray;
+    margin-right: 0;
+}
+
+/* Resume Section */
+.resume {
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Heading */
+h3 {
+    font-size: 25px;
+    color: rgb(9, 102, 105);
+}
+
+/* Button */
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 0 0 4px rgb(9, 102, 105);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+button:hover {
+    background-color: rgba(90, 97, 175, 0.456);
+}
+
+button:active {
+    background-color: #bfa025;
+}
+
+/* Responsive for Tablets (768px) */
+@media screen and (max-width: 768px) {
+    .static {
+        font-size: 50px;
+    }
+
+    .font {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+/* Responsive for Mobile (480px) */
+@media screen and (max-width: 480px) {
+    .static {
+        font-size: 40px;
+    }
+
+    .font {
+        font-size: 20px;
+    }
+
+    #picture {
+        width: 140px;
+        height: 140px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
